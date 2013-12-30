@@ -1,6 +1,6 @@
 #Königspress
 
-Künigspress is an Octopress theme designed with an emphasis on typography.
+Königspress is an Octopress theme designed with an emphasis on typography.
 The main goal of this theme is to provide a similar reading experience as a high-quality typeset book or PDF document.
 We would recommend this theme for site content conducive to lengthy lecture and high immersion (e.g. memoir-like blogs, diaries, short stories, novellas).
 
