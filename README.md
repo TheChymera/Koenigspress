@@ -19,6 +19,27 @@ From your octopress blog root directory:
     $ bundle exec rake install[Koenigspress]
     $ bundle exec generate
 
+## Awesome Authoring and Licensing Features!
+
+Königspress is designed to be compatible with multi-authored blogs and even multi-authored articles.
+The footer of the website specifies a website license - which for instance you could make proprietary if you don't want anybody cloning your website structure.
+
+Separately you - or guest authors - can specify a per-article license for your content.
+You may do this by adding a ```license: ``` specification to your post header.
+Per-article licensing also supports hyperlinks, which we encourage you to use.
+
+Header example:
+
+    ---
+    layout: post
+    title: "Lorem"
+    date: 2013-12-28 17:49:17 +0200
+    comments: true
+    categories: 
+    author: <a rel="author" href="https://your.website.org">A. U. Thor</a>
+    license: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    ---
+
 ## Customize
 
 The theme can be customized just as the default octopress theme - by edditing the files under `/sass/custom` and under `/source/_includes/custom`.
