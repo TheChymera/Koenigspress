@@ -24,7 +24,7 @@ From your octopress blog root directory:
 Königspress is designed to be compatible with multi-authored blogs and even multi-authored articles.
 The footer of the website specifies a website license - which for instance you could make proprietary if you don't want anybody cloning your website structure.
 
-Separately you - or guest authors - can specify a per-article license for your content.
+Separately, you - or guest authors - can specify per-article licenses for your content.
 You may do this by adding a ```license: ``` specification to your post header.
 Per-article licensing also supports hyperlinks, which we encourage you to use.
 
