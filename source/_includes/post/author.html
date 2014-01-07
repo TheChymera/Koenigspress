@@ -5,4 +5,5 @@
 {% else %}
   {% assign author = site.author %}
 {% endif %}
-{% if author %}<span class="byline author vcard">Posted by <span class="fn">{{ author }}</span></span>{% endif %}
+{% if author %}<span class="byline author vcard">Text authored by <span class="fn">{{ author }}</span></span>{% endif %}
+{% if page.license %}<span class="byline author vcard">and licensed under the <span class="fn">{{ page.license }}</span></span>{% endif %}
