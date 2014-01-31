@@ -10,6 +10,7 @@ Our code is however completely different, and more closely based on proper in-pl
 ##Demo
 
 [Märzwasser](http://mw.chymera.eu)
+*if you are using Königspress and would like to showcase your website, we'd be very happy to add you to the list! wust tell us your address via the [issue tracking system](https://github.com/TheChymera/Koenigspress/issues)!*
 
 ## Install
 
