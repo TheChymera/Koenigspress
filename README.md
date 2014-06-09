@@ -21,6 +21,15 @@ From your octopress blog root directory:
     $ bundle exec rake install[Koenigspress]
     $ bundle exec generate
 
+## Update
+
+From your octopress blog directory:
+
+    $ cd .themes/Koenigspress
+    $ git pull
+    $ rake install['whitespace']
+    $ rake generate
+    
 ## Awesome Authoring and Licensing Features!
 
 Königspress is designed to be compatible with multi-authored blogs and even multi-authored articles.
