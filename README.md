@@ -7,9 +7,11 @@ We would recommend this theme for site content conducive to lengthy lecture and 
 The theme was, concept-wise, strongly inspired by [Pageturner](https://github.com/elisehein/Pageturner) by Elise Hein, which is in turn visually based on [a design blog](http://simonfosterdesign.com/blog/) by Simon Foster. 
 Our code is however completely different, and more closely based on proper in-place editing of the default octopress theme.
 
-##Demo
+##Demos
 
-[Märzwasser](http://mw.chymera.eu)
+Default theme: [Märzwasser](http://mw.chymera.eu)
+
+Slightly customized: [Take a Bite](http://blog.blakepatches.me/)
 
 *If you are using Königspress and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the [issue tracking system](https://github.com/TheChymera/Koenigspress/issues)!*
 
