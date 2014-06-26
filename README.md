@@ -52,6 +52,14 @@ Header example:
     author: <a rel="author" href="https://your.website.org">A. U. Thor</a>
     license: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
     ---
+    
+## Per-Article Font Specification
+
+Our focus on typography extends to providing the user with an easy interface to specify fonts per-article.
+You can use the ```font:``` tag in your article header to choose any of the fonts imported under ```source/_includes/custom/head.html```.
+Additionally, if the font of your choice has a lower legibility at the default font size you can use a percent specification in the ```fontsize``` tag to increase the article font size.
+For an example, check out [this page](http://mw.chymera.eu/blog/2009/06/21/morgenrot/) for a per-article font example (using only ```font: UnifrakturMaguntia``` and ```fontsize:110%```).
+You can also see the source of that article on [this GitHub page](https://github.com/TheChymera/mw/blob/master/source/_posts/2014-01-07-morgenrot.markdown).
 
 ## Customize
 
