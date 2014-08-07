@@ -9,9 +9,9 @@ Our code is however completely different, and more closely based on proper in-pl
 
 ##Demos
 
-Default theme: [Märzwasser](http://mw.chymera.eu)
+Default theme: [Themespace Preview](http://themespace.github.io/Koenigspress/)
 
-Slightly customized: [Take a Byte](http://blog.blakepatches.me/)
+Actual blogs *(slightly customized)*: [Märzwasser](http://mw.chymera.eu), [Take a Byte](http://blog.blakepatches.me/)
 
 *If you are using Königspress and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the [issue tracking system](https://github.com/TheChymera/Koenigspress/issues)!*
 
