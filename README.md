@@ -58,7 +58,7 @@ Header example:
 Our focus on typography extends to providing the user with an easy interface to specify fonts per-article.
 You can use the ```font:``` tag in your article header to choose any of the fonts imported under ```source/_includes/custom/head.html```.
 Additionally, if the font of your choice has a lower legibility at the default font size you can use a percent specification in the ```fontsize``` tag to increase the article font size.
-For an example, check out [this page](http://mw.chymera.eu/blog/2009/06/21/morgenrot/) for a per-article font example (using only ```font: UnifrakturMaguntia``` and ```fontsize:110%```).
+For a published per-article example, check out [this page](http://mw.chymera.eu/blog/2009/06/21/morgenrot/) - using only ```font: UnifrakturMaguntia``` and ```fontsize:110%```.
 You can also see the source of that article on [this GitHub page](https://github.com/TheChymera/mw/blob/master/source/_posts/2014-01-07-morgenrot.markdown).
 
 ## Customize
