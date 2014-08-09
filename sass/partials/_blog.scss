@@ -2,7 +2,7 @@ article {
   padding-top: 2.5em;
   a { @extend .force-wrap; }
   header {
-    border-top: 1px solid lighten($link-color, 16);
+    border-top: 1px solid $separator-line-color;
     position: relative;
     padding-top: 3.5em;
     padding-bottom: 1em;

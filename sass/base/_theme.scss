@@ -1,32 +1,33 @@
 $noise-bg: image-url('noise.png') top left !default;
 $img-border: #fff!default;
 
-// Main Link Colors
-$link-color: lighten(#333, 55) !default;
-$link-color-hover: adjust-color($link-color, $lightness: -20, $saturation: 55) !default;
-$link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
-$link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
-
 // Main Section Colors
 $main-bg: #f8f8f8 !default;
 $page-bg: #252525 !default;
 $article-border: #eeeeee !default;
 
-$header-bg: #fff !default;
-$header-border: lighten($header-bg, 15) !default;
-$title-color: #2a2a2a !default;
-$subtitle-color: $link-color !default;
-
 $text-color: #2a2a2a !default;
 $text-color-light: #aaa !default;
 $type-border: #ddd !default;
+
+$header-bg: #fff !default;
+$header-border: lighten($header-bg, 15) !default;
+$title-color: #2a2a2a !default;
+$subtitle-color: lighten($text-color, 45) !default;
+$separator-line-color: lighten($text-color, 72) !default;
+
+// Main Link Colors
+$link-color: darken($subtitle-color, 0) !default;
+$link-color-hover: adjust-color($link-color, $lightness: -20, $saturation: 55) !default;
+$link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
+$link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 /* Navigation */
 $nav-bg: #ffffff;
 $nav-color: #2a2a2a !default;
 $nav-color-hover: $link-color-hover !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
-$nav-border: darken($nav-bg, 10) !default;
+$nav-border: $separator-line-color !default;
 $nav-border-top: #fff !default;
 $nav-border-bottom: #fff !default;
 $nav-border-left: #fff !default;
