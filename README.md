@@ -11,7 +11,7 @@ Our code is however completely different, and more closely based on proper in-pl
 
 Default theme: [Themespace Preview](http://themespace.github.io/Koenigspress/)
 
-Actual blogs: [Märzwasser](http://mw.chymera.eu), [Take a Byte](http://blog.blakepatches.me/)
+Actual blogs: [Märzwasser](http://mw.chymera.eu), [Minisimo](http://blog.blakepatches.me/)
 
 *If you are using Königspress and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the [issue tracking system](https://github.com/TheChymera/Koenigspress/issues)!*
 
