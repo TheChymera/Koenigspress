@@ -12,7 +12,7 @@ layout: default
   {% endif %}
   {{ content }}
   {% unless page.footer == false %}
-    <footer>
+    <footer class="page-footer">
       {% unless page.sharing == false %}
         {% include post/sharing.html %}
       {% endunless %}
