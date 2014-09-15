@@ -183,3 +183,7 @@ article blockquote {
 }
 
 a, a:visited, a:hover, a:active {text-decoration:none;}
+
+.basic-alignment {
+  &.left, &.right { margin-bottom: .8em; font-size: 1.3em;}
+}
