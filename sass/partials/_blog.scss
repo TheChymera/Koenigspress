@@ -73,12 +73,10 @@ article {
     }
   }
   > footer {
-    border-top: 1px solid $separator-line-color;
-    border-bottom: 1px solid $separator-line-color;
     padding-bottom: 0;
-    padding-top: 1em;
-    margin-top: 3.5em;
-    margin-bottom: 1.5em;
+    padding-top: 0;
+    margin-bottom: 1.9em;
+    margin-top: 0;
     p.meta {
       text-align: center;
       margin-bottom: .8em;
@@ -89,6 +87,13 @@ article {
     .byline + time:before, time +time:before, .comments:before, {
       @extend .separator;
     }
+  }
+.page-footer {
+    padding-top: 1em;
+    margin-top: 3.5em;
+    margin-bottom: 1.5em;
+    border-top: 1px solid $separator-line-color;
+    border-bottom: 1px solid $separator-line-color;
   }
 
 }
