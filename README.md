@@ -29,7 +29,7 @@ From your octopress blog directory:
 
     $ cd .themes/Koenigspress
     $ git pull
-    $ rake install['whitespace']
+    $ rake install[Koenigspress]
     $ rake generate
     
 ## Awesome Authoring and Licensing Features!
