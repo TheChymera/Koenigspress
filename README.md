@@ -20,8 +20,8 @@ Actual blogs: [Märzwasser](http://mw.chymera.eu), [Minisimo](http://blog.blakep
 From your octopress blog root directory:
 
     $ git clone https://github.com/TheChymera/Koenigspress.git .themes/Koenigspress
-    $ bundle exec rake install[Koenigspress]
-    $ bundle exec generate
+    $ rake install[Koenigspress]
+    $ rake generate
 
 ## Update
 
@@ -29,8 +29,8 @@ From your octopress blog directory:
 
     $ cd .themes/Koenigspress
     $ git pull
-    $ bundle exec rake install['whitespace']
-    $ bundle exec rake generate
+    $ rake install[Koenigspress]
+    $ rake generate
     
 ## Awesome Authoring and Licensing Features!
 
