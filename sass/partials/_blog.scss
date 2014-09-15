@@ -73,8 +73,12 @@ article {
     }
   }
   > footer {
-    padding-bottom: 2.5em;
-    margin-top: 3em;
+    border-top: 1px solid $separator-line-color;
+    border-bottom: 1px solid $separator-line-color;
+    padding-bottom: 0;
+    padding-top: 1em;
+    margin-top: 3.5em;
+    margin-bottom: 1.5em;
     p.meta {
       text-align: center;
       margin-bottom: .8em;
@@ -82,7 +86,7 @@ article {
       clear: both;
       overflow: hidden;
     }
-    .byline + time:before, time +time:before, .comments:before, .byline ~ .categories:before {
+    .byline + time:before, time +time:before, .comments:before, {
       @extend .separator;
     }
   }
