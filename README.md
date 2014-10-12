@@ -13,7 +13,7 @@ Default theme: [Themespace Preview](http://themespace.github.io/Koenigspress/)
 
 Actual blogs: [Märzwasser](http://mw.chymera.eu), [Minisimo](http://blog.blakepatches.me/), [Ionicer's Blog](http://ionicer.github.io/), [Broken Mold](http://brokenmold.net/)
 
-*If you are using Königspress and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the [issue tracking system](https://github.com/TheChymera/Koenigspress/issues)!*
+*If you are using Königspress and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the [issue tracking system](https://github.com/TheChymera/Koenigspress/issues/3)!*
 
 ## Install
 
