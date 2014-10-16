@@ -92,8 +92,6 @@ Of these fonts the ones which the website will actually use to display your cont
 Please report any glitches or theme inconsistencies that may bother you (preferably alongside a link to your website).
 We highly appreciate forks, hacks, pull request, or any other kinds of contributions.
 
-
-##Meta
-
+---
 Released under the GPLv3 license.
 Project led by Horea Christian (address all correspondence to: h.chr@mail.ru, or contact via [chymera.eu](http://chymera.eu)).
