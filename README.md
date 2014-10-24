@@ -7,18 +7,31 @@ We would recommend this theme for site content conducive to lengthy lecture and 
 The theme was, concept-wise, strongly inspired by [Pageturner](https://github.com/elisehein/Pageturner) by Elise Hein, which is in turn visually based on [a design blog](http://simonfosterdesign.com/blog/) by Simon Foster. 
 Our code is however completely different, and more closely based on proper in-place editing of the default octopress theme.
 
-##Demo
+##Demos
 
-[Märzwasser](http://mw.chymera.eu)
+Default theme: [Themespace Preview](http://themespace.github.io/Koenigspress/)
+
+Actual blogs: [Märzwasser](http://mw.chymera.eu), [Minisimo](http://blog.blakepatches.me/), [Ionicer's Blog](http://ionicer.github.io/), [Broken Mold](http://brokenmold.net/)
+
+*If you are using Königspress and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the [issue tracking system](https://github.com/TheChymera/Koenigspress/issues/3)!*
 
 ## Install
 
 From your octopress blog root directory:
 
     $ git clone https://github.com/TheChymera/Koenigspress.git .themes/Koenigspress
-    $ bundle exec rake install[Koenigspress]
-    $ bundle exec generate
+    $ rake install[Koenigspress]
+    $ rake generate
 
+## Update
+
+From your octopress blog directory:
+
+    $ cd .themes/Koenigspress
+    $ git pull
+    $ rake install[Koenigspress]
+    $ rake generate
+    
 ## Awesome Authoring and Licensing Features!
 
 Königspress is designed to be compatible with multi-authored blogs and even multi-authored articles.
@@ -39,6 +52,14 @@ Header example:
     author: <a rel="author" href="https://your.website.org">A. U. Thor</a>
     license: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
     ---
+    
+## Per-Article Font Specification
+
+Our focus on typography extends to providing the user with an easy interface to specify fonts per-article.
+You can use the ```font:``` tag in your article header to choose any of the fonts imported under ```source/_includes/custom/head.html```.
+Additionally, if the font of your choice has a lower legibility at the default font size you can use a percent specification in the ```fontsize``` tag to increase the article font size.
+For a published per-article example, check out [this page](http://mw.chymera.eu/blog/2009/06/21/morgenrot/) - using only ```font: UnifrakturMaguntia``` and ```fontsize:110%```.
+You can also see the source of that article on [this GitHub page](https://github.com/TheChymera/mw/blob/master/source/_posts/2014-01-07-morgenrot.markdown).
 
 ## Customize
 
@@ -71,8 +92,6 @@ Of these fonts the ones which the website will actually use to display your cont
 Please report any glitches or theme inconsistencies that may bother you (preferably alongside a link to your website).
 We highly appreciate forks, hacks, pull request, or any other kinds of contributions.
 
-
-##Meta
-
+---
 Released under the GPLv3 license.
 Project led by Horea Christian (address all correspondence to: h.chr@mail.ru, or contact via [chymera.eu](http://chymera.eu)).

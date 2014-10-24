@@ -74,7 +74,7 @@ body {
   &.left { float: left; margin-right: 1.5em; }
   &.right { float: right; margin-left: 1.5em; }
   &.center { display:block; margin: 0 auto 1.5em; }
-  &.left, &.right { margin-bottom: .8em; }
+  &.left, &.right { margin-bottom: 0; }
 }
 
 @media only screen and (min-width: 550px) {
@@ -98,7 +98,7 @@ body {
     position: relative;
     > div, > article {
       padding-top: $pad-medium/2;
-      padding-bottom: $pad-medium/2;
+      padding-bottom: 0;
     }
   }
 }
@@ -110,7 +110,7 @@ body {
   #content {
     > div, > article {
       padding-top: $pad-wide/9;
-      padding-bottom: $pad-wide/4;
+      padding-bottom: 0;
     }
   }
 }

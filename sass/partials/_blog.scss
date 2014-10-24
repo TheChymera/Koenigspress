@@ -2,7 +2,7 @@ article {
   padding-top: 2.5em;
   a { @extend .force-wrap; }
   header {
-    border-top: 1px solid lighten($link-color, 16);
+    border-top: 1px solid $separator-line-color;
     position: relative;
     padding-top: 3.5em;
     padding-bottom: 1em;
@@ -73,8 +73,10 @@ article {
     }
   }
   > footer {
-    padding-bottom: 2.5em;
-    margin-top: 3em;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 1.9em;
+    margin-top: 0;
     p.meta {
       text-align: center;
       margin-bottom: .8em;
@@ -82,9 +84,16 @@ article {
       clear: both;
       overflow: hidden;
     }
-    .byline + time:before, time +time:before, .comments:before, .byline ~ .categories:before {
+    .byline + time:before, time +time:before, .comments:before, {
       @extend .separator;
     }
+  }
+.page-footer {
+    padding-top: 1em;
+    margin-top: 3.5em;
+    margin-bottom: 1.5em;
+    border-top: 1px solid $separator-line-color;
+    border-bottom: 1px solid $separator-line-color;
   }
 
 }
