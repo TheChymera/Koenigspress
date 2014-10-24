@@ -1,19 +1,18 @@
 {% include custom/navigation.html %}
 <br>
-  {% if site.simple_search %}
-<form action="{{ site.simple_search }}" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
+{% if site.simple_search %}
+      {% unless site.adsense_cse_partner_ID %}
+        <form action="{{ site.simple_search }}" method="get">
+          <fieldset role="search">
+            <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+      {% endunless %}
+      {% if site.adsense_cse_partner_ID %}
+        <form action="http://www.google.com" id="cse-search-box" target="_blank">
+          <fieldset role="search">
+            <input type="hidden" name="cx" value="{{ site.adsense_cse_partner_ID }}" />
+            <input type="hidden" name="ie" value="UTF-8" />
+      {% endif %}
+            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+          </fieldset>
+        </form>
   {% endif %}
-<!--
-<ul class="subscription" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
-  <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  {% if site.subscribe_email %}
-    <li><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></li>
-  {% endif %}
-</ul>
--->
-
