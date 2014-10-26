@@ -16,12 +16,12 @@ body > nav {
     color: #333;
     .search {
       text-align: center;
-      padding: .3em .5em 0;
-      font-size: .85em;
+      padding: .4em .5em 0em;
+      font-size: 1em;
       font-family: $serif;
       line-height: 1.1em;
       width: 95%;
-      @include border-radius(.5em);
+      @include border-radius(.15em);
       @include background-clip(padding-box);
       @include box-shadow(lighten($nav-bg, 2) 0 1px);
       background-color: $nav-bg;
@@ -29,10 +29,8 @@ body > nav {
       color: #aaa;
       &:focus {
         color: #aaa;
-/*
-        border-color: #80b1df;
-        @include box-shadow(#80b1df 0 0 4px, #80b1df 0 0 3px inset);
-*/
+        border-color: $link-color-hover;
+        @include box-shadow($link-color-hover 0 0 4px, $link-color-hover 0 0 3px inset);
         background-color: #fff;
         outline: none;
       }
