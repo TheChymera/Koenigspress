@@ -87,6 +87,24 @@ A number of these (which we believe are in tune with our design paradigm) are al
 You can add any other font from Google Fonts via that file.
 Of these fonts the ones which the website will actually use to display your content are specified in the `/sass/base/_typograpphy.scss` file.
 
+
+### AdSense for Search
+
+You can enable Google AdSense™ for search via your whitespace search bar.
+For this to work you have to set `simple_search` and `adsense_cse_partner_ID` in your `_config.yml` file (you will have to add a line for the second variable, as it is not used with any other themes).
+The value for this variable can be extracted from the custom code for your search bar from a line such as the following:
+
+```
+<input type="hidden" name="cx" value="<adsense_cse_partner_ID>" />
+```
+
+Example for `_config.yml`:
+
+```
+simple_search: https://www.google.com/search
+adsense_cse_partner_ID: partner-pub-9999999999999999:9999999999
+```
+
 ## Contribute
 
 Please report any glitches or theme inconsistencies that may bother you (preferably alongside a link to your website).
