@@ -61,6 +61,33 @@ Additionally, if the font of your choice has a lower legibility at the default f
 For a published per-article example, check out [this page](http://mw.chymera.eu/blog/2009/06/21/morgenrot/) - using only ```font: UnifrakturMaguntia``` and ```fontsize:110%```.
 You can also see the source of that article on [this GitHub page](https://github.com/TheChymera/mw/blob/master/source/_posts/2014-01-07-morgenrot.markdown).
 
+## Edit and History Links
+
+If you choose to track your content via an an open repository (on  GitHub, Bitbucket, etc.) you can also link to your article's history (in the footer) or allow users to contribute via the version controlling backend (link in the header, next to "COMMENTS").
+Whitespace automatically enables this if you set the following variables in your `_config.yml` - e.g.:
+
+```
+history: https://github.com/youruser/yourblog/commits/master/source/
+edit: https://github.com/youruser/yourblog/edit/master/source/
+```
+
+## AdSense for Search
+
+You can enable Google AdSense™ for search via your whitespace search bar.
+For this to work you have to set `simple_search` and `adsense_cse_partner_ID` in your `_config.yml` file (you will have to add a line for the second variable, as it is not used with any other themes).
+The value for this variable can be extracted from the custom code for your search bar from a line such as the following:
+
+```
+<input type="hidden" name="cx" value="<adsense_cse_partner_ID>" />
+```
+
+Example for `_config.yml`:
+
+```
+simple_search: https://www.google.com/search
+adsense_cse_partner_ID: partner-pub-9999999999999999:9999999999
+```
+
 ## Customize
 
 The theme can be customized just as the default octopress theme - by edditing the files under `/sass/custom` and under `/source/_includes/custom`.
@@ -86,24 +113,6 @@ We use the convenient [Google Fonts](http://www.google.com/fonts#AboutPlace:abou
 A number of these (which we believe are in tune with our design paradigm) are already loaded under `/source/_includes/custom/head.html`.
 You can add any other font from Google Fonts via that file.
 Of these fonts the ones which the website will actually use to display your content are specified in the `/sass/base/_typograpphy.scss` file.
-
-
-### AdSense for Search
-
-You can enable Google AdSense™ for search via your whitespace search bar.
-For this to work you have to set `simple_search` and `adsense_cse_partner_ID` in your `_config.yml` file (you will have to add a line for the second variable, as it is not used with any other themes).
-The value for this variable can be extracted from the custom code for your search bar from a line such as the following:
-
-```
-<input type="hidden" name="cx" value="<adsense_cse_partner_ID>" />
-```
-
-Example for `_config.yml`:
-
-```
-simple_search: https://www.google.com/search
-adsense_cse_partner_ID: partner-pub-9999999999999999:9999999999
-```
 
 ## Contribute
 
