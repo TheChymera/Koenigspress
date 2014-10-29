@@ -27,8 +27,7 @@ From your octopress blog root directory:
 
 From your octopress blog directory:
 
-    $ cd .themes/Koenigspress
-    $ git pull
+    $ git -C .themes/Koenigspress pull origin master
     $ rake install[Koenigspress]
     $ rake generate
     
@@ -36,8 +35,7 @@ From your octopress blog directory:
 
 *For this to work, you have to track your website theme customizations on a remote (we call it ```mywebsiterepo```).*
 
-    $ cd octopress/.themes/Koenigspress
-    $ git pull
+    $ git -C .themes/Koenigspress pull origin master
     $ rake install[Koenigspress]
     $ cd ../..
     $ git fetch --all
