@@ -27,11 +27,21 @@ From your octopress blog root directory:
 
 From your octopress blog directory:
 
-    $ cd .themes/Koenigspress
-    $ git pull
+    $ git -C .themes/Koenigspress pull origin master
     $ rake install[Koenigspress]
     $ rake generate
     
+### Update and Keep Customizations
+
+*For this to work, you have to track your website theme customizations on a remote (we call it ```mywebsiterepo```).*
+
+    $ git -C .themes/Koenigspress pull origin master
+    $ rake install[Koenigspress]
+    $ cd ../..
+    $ git fetch --all
+    $ git reset --hard mywebsiterepo/master
+    $ rake generate
+
 ## Awesome Authoring and Licensing Features!
 
 Königspress is designed to be compatible with multi-authored blogs and even multi-authored articles.
