@@ -143,6 +143,7 @@ article + article {
   padding: {top: 1.5em; bottom: 1.5em;};
   margin-bottom: 1.3em;
   border-bottom: 1px solid $separator-line-color;
+  border-top: 1px solid $separator-line-color;
   a {
     text-decoration: none;
     color: $text-color-light;
