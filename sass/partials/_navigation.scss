@@ -5,10 +5,6 @@ body > nav {
   padding-top: .35em;
   padding-bottom: .35em;
   text-align:center;
-/*
-  margin-left:35%;
-  margin-right:35%;
-*/
 
   form {
     @include background-clip(padding-box);
@@ -17,10 +13,10 @@ body > nav {
     .search {
       text-align: center;
       padding: .4em .5em 0em;
-      font-size: 1em;
+      font-size: 1.1em;
       font-family: $serif;
       line-height: 1.1em;
-      width: 95%;
+      width: 90%;
       @include border-radius(.15em);
       @include background-clip(padding-box);
       @include box-shadow(lighten($nav-bg, 2) 0 1px);
@@ -36,9 +32,9 @@ body > nav {
       }
     }
   }
-  fieldset[role=search]{ width: 48%;}
-  fieldset.mobile-nav{ width: 48%;
-    select{ width: 100%; font-size: .8em; border: 1px solid #888;}
+  fieldset[role=search]{ width: 52%; display: inline-block; margin-left: 0%; margin-right: 1.5%;}
+  fieldset.mobile-nav{ width: 45%; display: inline-block; margin-left: 0%; margin-right: 0%;
+    select{ width: 100%; font-size: .8em; border: 1px solid $nav-border; background-color: #eee;}
   }
   ul { display: none; }
   @media only screen and (min-width: 550px) {
