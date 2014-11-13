@@ -5,7 +5,7 @@ The main goal of this theme is to provide a similar reading experience as a high
 We recommend this theme for content conducive to lengthy lecture and high immersion (e.g. memoir-like blogs, diaries, short stories, novellas).
 
 The theme was, conceptually, strongly inspired by [Pageturner](https://github.com/elisehein/Pageturner) by Elise Hein, which is in turn visually based on [a design blog](http://simonfosterdesign.com/blog/) by Simon Foster. 
-Our code is however completely different, and more closely based on proper in-place editing of the default octopress theme.
+Our code is however completely different, and more closely based on  [proper in-place editing](http://chymeric.eu/blog/2013/12/30/octopress-theme/) of the default octopress theme.
 
 ##Demos
 
