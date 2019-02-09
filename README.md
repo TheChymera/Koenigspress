@@ -1,4 +1,4 @@
-#Königspress
+# Königspress
 
 Königspress is an Octopress theme designed with an emphasis on typography.
 The main goal of this theme is to provide a similar reading experience as a high-quality typeset book or PDF document.
@@ -7,7 +7,7 @@ We recommend this theme for content conducive to lengthy lecture and high immers
 The theme was, conceptually, strongly inspired by [Pageturner](https://github.com/elisehein/Pageturner) by Elise Hein, which is in turn visually based on [a design blog](http://simonfosterdesign.com/blog/) by Simon Foster. 
 Our code is however completely different, and more closely based on  [proper in-place editing](http://chymeric.eu/blog/2013/12/30/octopress-theme/) of the default octopress theme.
 
-##Demos
+## Demos
 
 Default theme: [Themespace Preview](http://themespace.github.io/Koenigspress/)
 
